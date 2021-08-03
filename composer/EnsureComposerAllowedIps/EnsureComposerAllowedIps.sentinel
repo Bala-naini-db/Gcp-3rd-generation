@@ -13,7 +13,6 @@ if length(allowed_ip_range_listvalidated["message"]) > ,0 {
 
 #Main rules
 main = rules {
-    allowed_ip_range_listvalidated
-    _management_auto_upgrade_validated
+  allowed_ip_range_listvalidatedvalidated = true
 }
 
